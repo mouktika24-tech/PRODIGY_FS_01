@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Production builds
+frontend/dist/
+
+# Env secrets
+.env
+backend/.env
+
+# IDE and System Files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
