@@ -190,19 +190,6 @@ const Dashboard = () => {
           </div>
         </div>
 
-        {/* API Response Panel */}
-        <div className="api-section">
-          <div className="api-section-header">
-            <h3>Protected API Payload</h3>
-            <span className="api-badge">GET /api/dashboard</span>
-          </div>
-          <p style={{ fontSize: '0.875rem', marginBottom: '16px' }}>
-            Below is the server response returned from the private endpoint. This page is only accessible when transmitting a valid Bearer Token.
-          </p>
-          <pre className="api-response-box">
-            {JSON.stringify(data, null, 2)}
-          </pre>
-        </div>
       </div>
     </div>
   );
